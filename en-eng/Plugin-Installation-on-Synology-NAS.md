@@ -9,9 +9,9 @@ The purpose of this document is to help you in the installation of the Zigate pl
 * The GitHub server Synology package must be installed . Install Git Server package via Diskstation. We don't need the 'Server' part of the GitHub Server package, just the 'git command', so no specific configurations are required.
 * it is assumed that you have 'root'/'admin' right access with the use of 'sudo' command
 
-## Installation of the Plugin
+## Installation of the Plugin - The plugins folder is located in /usr/local/domoticz/var/plugins on Synology!
 
-cd /volume1/domoticz
+cd /volume1/domoticz/var
 cd plugins
 git clone https://github.com/sasu-drooz/Domoticz-Zigate.git
 
